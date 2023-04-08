@@ -20,7 +20,7 @@ const SimpleInput = (props) => {
     event.preventDefault();
     setEnteredNameTouched(true);
 
-    if (enteredNameIsValid) {
+    if (!enteredNameIsValid) {
       return;
     }
 
